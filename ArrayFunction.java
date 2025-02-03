@@ -20,4 +20,22 @@ class ArrayFunction{
 	display(even);
 	display(odd);
 	}
+	int findSmallestDistanceIndex(int[] array) {
+        if (array.length < 2) {
+           System.out.println("Array must have at least two elements.");
+        }
+        
+        int minIndex = 0;
+        int minDistance = Math.abs(array[1] - array[0]);
+        
+        for (int i = 1; i < array.length - 1; i++) {
+            int distance = Math.abs(array[i + 1] - array[i]);
+            if (distance < minDistance) {
+                minDistance = distance;
+                minIndex = i;
+            }
+        }
+        
+        return minIndex;
+    }
 }
