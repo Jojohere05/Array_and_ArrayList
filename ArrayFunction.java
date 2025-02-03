@@ -17,7 +17,7 @@ class ArrayFunction{
 			odd.add(array[i]);
 		}
 	}
-      
-    
+	display(even);
+	display(odd);
 	}
 }
