@@ -1,5 +1,6 @@
 import java.util.*;
 class UserInput{
+//take array input
 	Scanner scan = new Scanner(System.in);
 	int[] arrayInput(){
 		System.out.println("Enter the size of the array");
@@ -11,6 +12,7 @@ class UserInput{
 		}
 	return array;
 	}
+	//take arraylist input
 	ArrayList<Integer> arrayListInput(){
 		System.out.println("Enter the size of the array");
 		int size= scan.nextInt();
