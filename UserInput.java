@@ -5,8 +5,7 @@ class UserInput{
 		System.out.println("Enter the size of the array");
 		int size= scan.nextInt();
 		int[] array = new int[size];
-		System.out.println("enter 5 nos");
-		
+		System.out.printf("Enter %d nos\n",size);
 		for (int i=0;i<array.length;i++){
 			array[i]= scan.nextInt();
 		}
@@ -16,7 +15,7 @@ class UserInput{
 		System.out.println("Enter the size of the array");
 		int size= scan.nextInt();
 		ArrayList<Integer> arr = new ArrayList<Integer>();
-		System.out.println("enter 5 nos");
+		System.out.printf("Enter %d nos\n",size);
 		for (int i=0;i<size;i++){
 			arr.add(scan.nextInt());
 		}

@@ -3,6 +3,10 @@ class ArrayFunction{
 	void display(ArrayList<Integer> array){
 		  System.out.println("Array is: "+array);
 	}
+	void display_arr(int[] array){
+		System.out.print("Array is: ");
+        System.out.println(Arrays.toString(array));
+  }
 	void oddEven(int[] array){
 
 	ArrayList<Integer> even= new ArrayList<Integer>();
